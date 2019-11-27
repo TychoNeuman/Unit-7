@@ -673,19 +673,6 @@ I would credit whoever wrote this, but I forgot where it's from. */
 
 -------------------------*/
 
-#main-header-icon::after {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  background: #85DB80;
-  right: 193px;
-  top: 16px;
-  width: 10px;
-  height: 10px;
-  border-radius: 100px;
-
-}
-
 #site-logo {
   flex: 0 100%;
   font-size: 1.5em;
@@ -742,6 +729,20 @@ I would credit whoever wrote this, but I forgot where it's from. */
 -------------------------*/
 
 @media (min-width: 1024px) {
+
+  #main-header-icon::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background: #85DB80;
+    right: 193px;
+    top: 16px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+
+  }
+
   .alert::after {
     top: 16px;
     right: 14px;
