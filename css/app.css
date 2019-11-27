@@ -296,17 +296,6 @@ main {
   fill: #51B6C8;
 }
 
-.main-header-icon-bell::after {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  background: #85DB80;
-  right: 0;
-  width: 10px;
-  height: 10px;
-  border-radius: 100px;
-}
-
 .header-title {
   flex: 0 149px;
   text-align: center;
@@ -683,6 +672,19 @@ I would credit whoever wrote this, but I forgot where it's from. */
     ID STYLES
 
 -------------------------*/
+
+#main-header-icon::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background: #85DB80;
+  right: 193px;
+  top: 16px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100px;
+
+}
 
 #site-logo {
   flex: 0 100%;
